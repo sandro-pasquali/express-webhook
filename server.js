@@ -5,7 +5,7 @@ var port    = process.env.PORT || 8082;
 // Dummy to test the server.
 //
 app.get('/', function(req, res) {
-    res.send('Something!??');  
+    res.send('Hello World!');  
 });
 
 app.get('/webhook', function(req, res) {
